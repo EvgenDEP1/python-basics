@@ -12,6 +12,13 @@ student_marks = [
     2,
     5
 ]
+student_2_marks = [
+    4,
+    3,
+    5,
+    5,
+    4
+]
 
 # lesson_dates_and_marks = [
 #     ['14.09.2020', 5],
@@ -57,5 +64,9 @@ student_marks = [
 # for lesson_date, mark in lesson_dates_and_marks:
 #     print(lesson_date, 'оценка', mark)
 
-for lesson_date, mark in zip(lesson_dates, student_marks):
-    print(lesson_date, 'оценка', mark)
+# for lesson_date, mark in zip(lesson_dates, student_marks):
+#     print(lesson_date, 'оценка', mark)
+
+
+for lesson_date, mark, mark_2 in zip(lesson_dates, student_marks, student_2_marks):
+    print(lesson_date, 'оценка', mark, mark_2)
