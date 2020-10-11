@@ -26,5 +26,5 @@ avg_mark = 0
 for item in student_marks:
     avg_mark += item
 
-avg_mark /= len(studen_marks)
+avg_mark /= len(student_marks)
 print('Средний балл', avg_mark)
