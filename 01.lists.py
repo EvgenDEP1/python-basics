@@ -1,13 +1,15 @@
-student_marks = []
-while True:
-    mark = input('Введите оценку студента:\n')
-    if mark:
-        student_marks.append(mark)
-    else:
-        break
-print('Ввод завершен')
-print(student_marks)
+# student_marks = []
+# while True:
+#     mark = input('Введите оценку студента:\n')
+#     if mark:
+#         student_marks.append(mark)
+#     else:
+#         break
+# print('Ввод завершен')
+# print(student_marks)
 
+mock_student_mark = ['5', '4', '3', '2', '5']
+student_marks = mock_student_mark
 
 i = 0
 avg_mark = 0
